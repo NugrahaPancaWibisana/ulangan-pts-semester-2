@@ -1,0 +1,35 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.kotak1 {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.kotak2 {
+    width: 300px;
+}
+
+a {
+    color: #ccc;
+}
